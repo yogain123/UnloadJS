@@ -7,5 +7,6 @@ methods.charMap = require("./charmap");
 methods.sort = require("./sort");
 methods.log = require("./log");
 methods.replaceAll = require("./replace");
+methods.surreal = require("./surreal");
 
 module.exports = methods;
