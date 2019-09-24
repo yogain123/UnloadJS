@@ -11,12 +11,12 @@ function sort(data, order = 1) {
     if (order === 1) {
       return data
         .split("")
-        .sort((a, b) => a - b)
+        .sort()
         .join("");
     } else if (order === -1) {
       return data
         .split("")
-        .sort((a, b) => b - a)
+        .sort()
         .join("");
     }
   }

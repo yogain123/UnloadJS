@@ -17,12 +17,12 @@ function sort(data: number[] | string, order = 1) {
     if (order === 1) {
       return data
         .split("")
-        .sort((a: any, b: any) => a - b)
+        .sort()
         .join("");
     } else if (order === -1) {
       return data
         .split("")
-        .sort((a: any, b: any) => b - a)
+        .sort()
         .join("");
     }
   }
