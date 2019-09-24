@@ -1,9 +1,11 @@
-let method = {};
+let methods = {};
 
-method.hashPass = require("./hash-pass"); // hash your password
-method.anagram = require("./anagram"); // check your strings are anagram or not
-method.clone = require("./clone");
-method.charMap = require("./charmap");
-method.sort = require("./sort");
+methods.hashPass = require("./hash-pass"); // hash your password
+methods.anagram = require("./anagram"); // check your strings are anagram or not
+methods.clone = require("./clone");
+methods.charMap = require("./charmap");
+methods.sort = require("./sort");
+methods.log = require("./log");
+methods.log({ data: 23456 });
 
-module.exports = method;
+module.exports = methods;
