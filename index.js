@@ -6,6 +6,5 @@ methods.clone = require("./clone");
 methods.charMap = require("./charmap");
 methods.sort = require("./sort");
 methods.log = require("./log");
-methods.log({ data: 23456 });
 
 module.exports = methods;
