@@ -1,9 +1,9 @@
 ## Micro Utility for JavaScript
 
-- npm install Unload-JS,
-- yarn add Unload-JS
+- npm install unloadjs
+- yarn add unloadjs
 
 ```
-let unload = require(''Unload-JS);
+let unload = require(''unloadjs);
 unload.hashPassed("yogendrasaxena56@gmail.com")
 ```
