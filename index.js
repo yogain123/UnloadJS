@@ -8,6 +8,4 @@ methods.sort = require("./sort");
 methods.log = require("./log");
 methods.replaceAll = require("./replace");
 
-console.log(methods.replaceAll("ydgendra", "d", "**"));
-
 module.exports = methods;
