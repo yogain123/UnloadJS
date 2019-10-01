@@ -8,5 +8,6 @@ methods.sort = require("./sort");
 methods.log = require("./log");
 methods.replaceAll = require("./replace");
 methods.surreal = require("./surreal");
+methods.mapToObject = require("./map-to-object");
 
 module.exports = methods;
