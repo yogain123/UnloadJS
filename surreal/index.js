@@ -14,6 +14,15 @@ function surreal(data) {
   if (Object.prototype.toString.call(data) === "[object Boolean]") {
     return "boolean";
   }
+
+  if (Object.prototype.toString.call(data) === "[object Map]") {
+    return "map";
+  }
+
+  if (Object.prototype.toString.call(data) === "[object Set]") {
+    return "set";
+  }
+
   if (Object.prototype.toString.call(data) === "[object Number]") {
     return "number";
   }
